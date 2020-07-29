@@ -1,0 +1,29 @@
+1. 깃허브의 리포지토리 url 복사
+
+2. 연동할 폴더 생성해둔다
+
+3. cmd창 열어서 연동할 폴더로 이동하기 (이동 명령어 : cd )
+예) C:\Users\Administrator>cd ../../test	<- 엔터 누르면 C의 test 폴더로 이동
+	C:\test>
+
+4. git clone (복사한 url 붙여넣기(shift+ins)하고 맨뒤의 .git 삭제)
+
+5. git init
+
+6. git remote add origin (복사한 url주소에서 .git 빼기)
+
+7. git pull origin master
+
+8. Visual Code로 테스트 파일 하나 생성하고 저장
+
+9. git add . (전체 파일 스테이싱, 파일 선택해서 따로 올리려면 검색 ㄱ)
+
+10. git commit -m "커밋메시지입력"
+
+10.1 이놈이 내 컴이 아니라서 사용자가 다르다면 제어판>자격 증명 관리자>windows 자격증명>일반 자격 증명 목록의 git:https://github.com 눌러서 수정
+
+11. git push origin master
+
+끗임, 앞으로 할 때는 비코로 촤라락 하면 되고 클론은 젤 첨에만 복사해오는거라서
+pull하고 동기화?하고(쌤이 하랫는데 정확히 머가 동기화인지는 몰겟음 다시 물어보셈)나서
+add / commit / push 하시오
